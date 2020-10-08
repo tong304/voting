@@ -21,7 +21,7 @@ This study focus on investigate the relationship between satisfication of work o
 
 ## Introduction
 
-People's Heathy is always one of most important topic in the elections, and it would be the same for the 2020 election in Canada. And in current days, the most important issue is the COVID-19 for all of the countries in the world including Canada. Pagan, C. (2016, August 23) pointed out that the key problem of People's Heathy  would be an immunity challenge. And the Goverment Canada, P. (2020, September 13) pointed out the spread of COVID-19 in Canada tends to be more and more serious based on the information by the site Tracking coronavirus¡¯ global spread. And it is known that in 2015, young people came out to be the key gorup to elect Justin Trudeau and the Liberal Party. Under this background, it is assumed that whether the young voters is satisfied of work of Liberal party in dealing with COVID-19 would be the key in  the 2020 election in Canada if the Liberal party want to win. So, this study is aimed to investigate the relationship between satisfication of work of COVID-19 and favoring Liberal for young voters in the election of Canada.  The PDF source of the study could be found in the link:.
+People's Heathy is always one of most important topic in the elections, and it would be the same for the 2020 election in Canada. And in current days, the most important issue is the COVID-19 for all of the countries in the world including Canada. Pagan, C. (2016, August 23) pointed out that the key problem of People's Heathy  would be an immunity challenge. And the Goverment Canada, P. (2020, September 13) pointed out the spread of COVID-19 in Canada tends to be more and more serious based on the information by the site Tracking coronavirusâ€™ global spread. And it is known that in 2015, young people came out to be the key gorup to elect Justin Trudeau and the Liberal Party. Under this background, it is assumed that whether the young voters is satisfied of work of Liberal party in dealing with COVID-19 would be the key in  the 2020 election in Canada if the Liberal party want to win. So, this study is aimed to investigate the relationship between satisfication of work of COVID-19 and favoring Liberal for young voters in the election of Canada.  The PDF source of the study could be found in the link: https://github.com/tong304/voting/blob/main/tong_a2.pdf.
 
 
 
@@ -186,7 +186,7 @@ The founding of the above shows that for the young voters who are aged between 1
 
 6. R Core Team (2019). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/
 
-7. Tracking coronavirus¡¯ global spread. (n.d.). Retrieved September 30, 2020, from https://www.cnn.com/interactive/2020/health/coronavirus-maps-and-cases/
+7. Tracking coronavirus' global spread. (n.d.). Retrieved September 30, 2020, from https://www.cnn.com/interactive/2020/health/coronavirus-maps-and-cases/
 
 8. Yihui Xie (2014) knitr: A Comprehensive Tool for Reproducible Research in R. In Victoria Stodden, Friedrich Leisch and Roger D. Peng, editors, Implementing Reproducible Computational Research. Chapman and Hall/CRC. ISBN 978-1466561595
 
@@ -194,9 +194,9 @@ The founding of the above shows that for the young voters who are aged between 1
 
 The survey link is: https://docs.google.com/forms/d/1A9hBwoQjdfLYTZhowoLbP8l5n_cuIhU0owff3vu8FpY/edit
 
-The Github repo link of source codes in a rmd format is: 
+The Github repo link of source codes in a rmd format is:  https://github.com/tong304/voting.
 
-The screenshotof the survey is as below:
+The screenshot of the survey is as below:
 
 ![](survey.png)
 
