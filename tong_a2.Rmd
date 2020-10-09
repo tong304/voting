@@ -111,7 +111,7 @@ data <- samp %>% mutate(satisfied = ifelse(satisfy < 4, "N", "Y")) %>%
 
 
 
-```{r, fig.cap="An investigation of estimated proportions of favoring Liberal (95%CI) in ON for 2020 election grouped by gender(F=female,M=male) and whether voted for Liberal before",fig.height=3.7,fig.width=5.2}
+```{r, fig.cap="An investigation of estimated proportions of favoring Liberal (95%CI) in ON for 2020 election grouped by gender(F=female,M=male) and whether voted for Liberal before",fig.height=3.7,fig.width=6.2}
 #graphs
 library(ggplot2)
 #compute estimated proportions of favoring Liberal with sd grouped by gender and voted
@@ -142,7 +142,7 @@ Table 2 and Figure 2 show the estimated proportions of favouring Liberal in ON f
 
 From the table 2 and figure 2, it can be found that for satisfied young voters who are not ever voted for Liberal shows an estimated proportion of favouring Liberal about 0.374 with an SD = 0.051, it is very close to the not satisfied young voters who are not ever voted for Liberal shows an estimated proportion of favouring Liberal about 0.364 with an SD = 0.039. And for satisfied young voters who voted for Liberal before shows an estimated proportion of favouring Liberal about 0.429 with an SD = 0.084, it is higher than the not satisfied young voters who voted for Liberal with estimated proportion of favouring Liberal about 0.358 with an SD = 0.053. The conclusion is that there is no significant difference between the two groups of whether satisfied with the work for COVID-19 in proportions of favouring Liberal if the young voters are not ever voted for Liberal. However, there is a big difference between the two groups of whether satisfied with the work for COVID-19 in proportions of favouring Liberal if the young voters voted for Liberal before. 
 
-```{r, fig.cap="An investigation of estimated proportions of favoring Liberal (95%CI) in ON for 2020 election grouped by satisfication of work for COVID-19(N= score <= 3,Y = score >= 4) using a linear scale 1-5 and whether voted for Liberal before",fig.height=3.7,fig.width=5.2}
+```{r, fig.cap="An investigation of estimated proportions of favoring Liberal (95%CI) in ON for 2020 election grouped by satisfication of work for COVID-19(N= score <= 3,Y = score >= 4) using a linear scale 1-5 and whether voted for Liberal before",fig.height=3.7,fig.width=6.2}
 #compute estimated proportions of favoring Liberal with sd grouped by satisfied and voted
 dt2 <- data %>% group_by(satisfied , voted) %>% summarise(m = mean(choice == "L",
                                                                    na.rm=TRUE),
