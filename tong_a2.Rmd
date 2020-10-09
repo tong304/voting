@@ -11,29 +11,27 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
-
-
 ## Executive summary
 
 
-This study focus on investigate the relationship between satisfication of work of COVID-19 and favoring Liberal for young voters in the election of Canada. This study finds that for the young voters who are aged between 18 to 25, the male young voters who voted for Liberal appear to have a lower proportion of favoring Liberal in ON for 2020 election compared with other groups. And there is a big difference between the two groups of whether satisfied of the work for COVID-19 in proprotions of favoring Liberal if the young voters voted for Liberal before. Thus, this study suggests the Liberal party to focus on the work in dealing with COVID-19 as it might be the key to win the 2020 election.
+This study investigates the relationship between the satisfaction of the work done according to COVID-19 and favours Liberal for young voters in Canada's election. This study shows that the young voters who are aged between 18-25 and the young male voters who voted for liberal appear to have a lower proportion of favouring Liberal in Ontario for the election in 2020. And there is a big difference between the two groups whether they have satisfied with the work related to COVID-19 in proportions of favouring Liberal if the young voters voted for Liberal before. Thus, this study suggests the Liberal party should focus more on the work of dealing with COVID-19 as it might be the key to win the 2020 election.
 
 
 ## Introduction
 
-People's Heathy is always one of most important topic in the elections, and it would be the same for the 2020 election in Canada. And in current days, the most important issue is the COVID-19 for all of the countries in the world including Canada. Pagan, C. (2016, August 23) pointed out that the key problem of People's Heathy  would be an immunity challenge. And the Goverment Canada, P. (2020, September 13) pointed out the spread of COVID-19 in Canada tends to be more and more serious based on the information by the site Tracking coronavirus’ global spread. And it is known that in 2015, young people came out to be the key gorup to elect Justin Trudeau and the Liberal Party. Under this background, it is assumed that whether the young voters is satisfied of work of Liberal party in dealing with COVID-19 would be the key in  the 2020 election in Canada if the Liberal party want to win. So, this study is aimed to investigate the relationship between satisfication of work of COVID-19 and favoring Liberal for young voters in the election of Canada.  The PDF source of the study could be found in the link: https://github.com/tong304/voting/blob/main/tong_a2.pdf.
+People's healthy is always one of the most crucial topics in the elections, which would be the same for the 2020 election in Canada. The most critical issue for all of the countries in the world is how to deal with COVID-19. Pagan, C. (2016, August 23) pointed out that the key problem of People's Heathy would be an immunity challenge. And the Goverment Canada, P. (2020, September 13) pointed out the spread of COVID-19 in Canada tends to be more and more serious based on the information by the site Tracking coronavirus' global spread. And it is known that in 2015, young people came out to be the key group to elect Justin Trudeau and the Liberal Party. Under this background, it is assumed that whether the young voters are satisfied with the work of the Liberal party in dealing with COVID-19 would be the key in the 2020 election in Canada if the Liberal party wants to win. So, this study investigates the relationship between the satisfaction of the work of COVID-19 and favouring Liberal for young voters in Canada's election. The PDF source of the study could be found in the link: https://github.com/tong304/voting/blob/main/tong_a2.pdf.
 
 
 
 ## Survey methodology
 
-The objective of the survey is to investigate the proportions of favoring Liberal in ON for 2020 election in two groups for young voters who are aged between 18 and 25 years old and once voted for Liberal before. One group is the group of the young voters who are satisfied about the work dealing with COVID-19 of the Liberal party, the other group is the group of the young voters who are not satisfied about the work dealing with COVID-19 of the Liberal party.
+The survey's objective is to investigate the proportions of favouring Liberal in ON for the 2020 election in two groups for young voters who are aged between 18 and 25 years old and once voted for Liberal before. One group is the group of the young voters who are satisfied with the work dealing with COVID-19 of the Liberal party; the other group is the group of the young voters who are not satisfied with the work dealing with COVID-19 of the Liberal party.
 
-The target population is all of young Canadian students who are living in ON, the frame is a list of students that registered in the schools in ON, the sample is 1000 Canadian students. 
+The target population is all of the young Canadian students living in Ontario; the frame is a list of students registered in Ontario. The sample is 1000 Canadian students
 
 The data needed to be collected in the survey is whether they will vote for Liberal or not in the 2020 election. The required accuracy of estimates is within 0.2 percent. 
 
-The sampling method selected in the survey is SRSWOR which is a method of selection of n samples out of the N population one by one, and in this sampling method,  at any stage of the selection, any one of the remaining units has equal chance being selected. The details of the selection in the survey is as below:
+The sampling method selected in the survey is SRSWOR, a method of selecting n samples out of the N population one by one. In this sampling method, at any stage of the selection, any remaining units have an equal chance of being selected. The details of the sample in the survey are as below:
 
 1). Identify the N students in the population frame with the numbers 1 to N.
 
@@ -47,7 +45,7 @@ from the step 2).
 5). Repeat the previous procedures until 1000 students are obtained. 
 
  
-In the sampling method SRSWOR, if we denote the population characteristic of favoring Liberal in ON for 2020 election as a binary outcome $Y_i$, and if favoring Liberal, $Y_i=1$, otherwise,  $Y_i=0$. Then we have the total number with the response 1 which means favoring Liberal in ON for 2020 election in the population is:
+In the sampling method SRSWOR, if we denote the population characteristic of favouring Liberal in ON for the 2020 election as a binary outcome $Y_i$, and if favouring Liberal, $Y_i=1$, otherwise, $Y_i=0$. Then we have the total number with response 1, which means favouring Liberal in ON for the 2020 election in the population is:
 
 $$T = \sum_{i=1}^N Y_i$$
 
@@ -64,17 +62,16 @@ And as N is much larger than n for this survey, the  sample variance of the prop
 
 $$var(p) = \frac{ p (1-p)}{n - 1}$$
 
-The important reason of choosing the sampling method SRSWOR is that it has the most important 
-statistical property for estimators that the sample proportion p is an unbiased estimator of the population proportion P. 
+The important reason for choosing the sampling method SRSWOR is that it has the most important 
+ statistical property for estimators that the sample proportion p is an unbiased estimator of the population proportion P. 
 
-This survey is going to reach the desired respondents by Mail based on the information of the students registered in the schools in ON. The cost of this survey would be about (10 + 2) * 1000 + 500 = 12500 dollars.  For each of the sample, 10 dollars would be spent on a gift card and 2 dollars would be spent on a paid envelop. And the left 500 dollars is the fix cost of the survey design. This survey provides a gift card for each sample along with the survey which is designed to deal with the non-response problem, because the survey is short, a 10 dollar gift card should be enough for samples to feel it is worth to complete the survey. This is important because there are always issues of non-response in survey, the biggest effect of the non-response issue on the survey that it would cause non-response bias which would make the estimates not reliable. However, sometimes the non-response issue is hard to avoid, samples might not to vote or prefer not to complete the survey even after they accepted the gift card.
+This survey will reach the desired respondents by Mail based on the information of the students registered in the schools in ON. The cost of this survey would be about (10 + 2) * 1000 + 500 = 12500 dollars. We would spend 10 dollars on a gift card and 2 dollars for an envelope for each of the samples. And the left 500 dollars is the fixed cost of the survey design. This survey provides a gift card for each sample, and the survey designed to deal with the non-response problem; because the survey is short, a 10 dollar gift card should be enough for samples to feel it is worth completing the survey. This is important because there are always issues of non-response in the survey; the biggest effect of the non-response issue on the survey is that it would cause non-response bias, making the estimates unreliable. However, sometimes the non-response issue is hard to avoid. Samples might not vote or prefer not to complete the survey even after they accepted the gift card.
 
-At last, it is very important to protect the respondent privacy in the survey, one of the important reasons is that the plotical vote is a very sensitive topic. And this survey would sign privacy contract and make a copy along with the survey before mail to the samples.
-
+Finally, it is essential to protect the respondent's privacy in the survey because the political vote is a very sensitive topic. And this survey would sign a privacy contract and make a copy along with the survey before we could Mail to the samples.
 
 ## Results
 
-Table 1 and Figure 1 show the estimated proportions of favoring Liberal in ON for 2020 election grouped by gender and whether voted for Liberal before. From the table 1 and figure 1, it can be found that for female young voters who are not ever voted for Liberal shows an estimated proprotion of favoring Liberal about 0.350 with a SD = 0.0443, it is close to the male young voters who are not ever voted for Liberal with estimated proprotion of favoring Liberal about 0.376 with a SD = 0.0484. And for female young voters who voted for Liberal before shows an estimated proprotion of favoring Liberal about 0.358 with a SD = 0.0665, it is higher than the male young voters who voted for Liberal with estimated proprotion of favoring Liberal about 0.309 with a SD = 0.0629. The conclusion is that male young voters who voted for Liberal appear to show a lower proportion of favoring Liberal in ON for 2020 election compared with other groups. 
+Table 1 and Figure 1 show the estimated proportions of favouring Liberal in ON for the 2020 election grouped by gender and whether voted for Liberal before. From the table 1 and figure 1, it can be found that for young female voters who are not ever voted for Liberal shows an estimated proportion of favouring Liberal about 0.350 with an SD = 0.0443, it is close to the young male voters who are not ever voted for Liberal with estimated proportion of favouring Liberal about 0.376 with an SD = 0.0484. And for young female voters who voted for Liberal before, it shows an estimated proportion of selecting Liberal about 0.358 with an SD = 0.0665. It is higher than the young male voters who voted for Liberal with an estimated proportion of favouring Liberal about 0.309 with an SD = 0.0629. The conclusion is that young male voters who voted for Liberal appear to show a lower proportion of favouring Liberal in ON for the 2020 election than other groups. 
 
 ```{r}
 #simulation codes
@@ -114,7 +111,7 @@ data <- samp %>% mutate(satisfied = ifelse(satisfy < 4, "N", "Y")) %>%
 
 
 
-```{r, fig.cap="An investigation of estimated proportions of favoring Liberal (95%CI) in ON for 2020 election grouped by gender(F=female,M=male) and whether voted for Liberal before",fig.height=3.4,fig.width=4.8}
+```{r, fig.cap="An investigation of estimated proportions of favoring Liberal (95%CI) in ON for 2020 election grouped by gender(F=female,M=male) and whether voted for Liberal before",fig.height=3.7,fig.width=5.2}
 #graphs
 library(ggplot2)
 #compute estimated proportions of favoring Liberal with sd grouped by gender and voted
@@ -127,7 +124,9 @@ p = ggplot(dt, aes(x=voted, y=m, colour=gender,group=gender)) +
   geom_point(size = 2) +
   theme_classic() + xlab("Whether Voted for Liberal before(N=No,Y=Yes)") + ylab("Estimated proportion of favoring Liberal (95%CI)") + 
   theme(legend.position=c(0.95,0.75)) + 
-  scale_color_manual(values =c("#00b0f6","#f8766d")) + ylim(0,1)
+  scale_color_manual(values =c("#00b0f6","#f8766d")) + ylim(0,1) + 
+  ggtitle("Proportions of favoring Liberal for young voters",
+          subtitle = "grouped by gender and whether voted Liberal before")
 p
 ```
 
@@ -138,11 +137,11 @@ colnames(dt)[3:4] <- c("mean","SD")
 knitr::kable(dt,caption = "Estimated proportion of favoring Liberal (95%CI) grouped by gender and whether voted for Liberal before")
 ```
 
-Table 2 and Figure 2 show the estimated proportions of favoring Liberal in ON for 2020 election grouped by whether  satisfied of the work for COVID-19 and whether voted for Liberal before.  The original scale of satisfication is a linear scale from 1 to 5, in this part, it is converted into a binary outcome group that the satisfication group is the group which shows a score no less than 4 while the non-satisfication group is the group  which shows a score no higher than 3. 
+Table 2 and Figure 2 show the estimated proportions of favouring Liberal in ON for the 2020 election grouped by whether satisfied with the work for COVID-19 and whether voted for Liberal before. The original scale of satisfaction is a linear scale from 1 to 5. In this part, it is converted into a binary outcome group that the satisfaction group is the group which shows a score no less than 4 while the non-satisfaction group is the group which shows a score no higher than 3. 
 
-From the table 2 and figure 2, it can be found that for satisfied young voters who are not ever voted for Liberal shows an estimated proprotion of favoring Liberal about 0.356 with a SD = 0.0513, it is very close to the not satisfied young voters who are not ever voted for Liberal shows an estimated proprotion of favoring Liberal about 0.366 with a SD = 0.0421. And for satisfied young voters who voted for Liberal before shows an estimated proprotion of favoring Liberal about 0.364 with a SD = 0.0837, it is higher than the not satisfied young voters who voted for Liberal with estimated proprotion of favoring Liberal about 0.320 with a SD = 0.0539. The conclusion is that there is no big difference between the two groups of whether satisfied of the work for COVID-19 in proprotions of favoring Liberal if the young voters are not ever voted for Liberal, but there is a big difference between the two groups of whether satisfied of the work for COVID-19 in proprotions of favoring Liberal if the young voters voted for Liberal before.
+From the table 2 and figure 2, it can be found that for satisfied young voters who are not ever voted for Liberal shows an estimated proportion of favouring Liberal about 0.356 with an SD = 0.0513, it is very close to the not satisfied young voters who are not ever voted for Liberal shows an estimated proportion of favouring Liberal about 0.366 with an SD = 0.0421. And for satisfied young voters who voted for Liberal before shows an estimated proportion of favouring Liberal about 0.364 with an SD = 0.0837, it is higher than the not satisfied young voters who voted for Liberal with estimated proportion of favouring Liberal about 0.320 with an SD = 0.0539. The conclusion is that there is no significant difference between the two groups of whether satisfied with the work for COVID-19 in proportions of favouring Liberal if the young voters are not ever voted for Liberal. Still, there is a big difference between the two groups of whether satisfied with the work for COVID-19 in proportions of favouring Liberal if the young voters voted for Liberal before.
 
-```{r, fig.cap="An investigation of estimated proportions of favoring Liberal (95%CI) in ON for 2020 election grouped by satisfication of work for COVID-19(N= score <= 3,Y = score >= 4) using a linear scale 1-5 and whether voted for Liberal before",fig.height=3.4,fig.width=4.8}
+```{r, fig.cap="An investigation of estimated proportions of favoring Liberal (95%CI) in ON for 2020 election grouped by satisfication of work for COVID-19(N= score <= 3,Y = score >= 4) using a linear scale 1-5 and whether voted for Liberal before",fig.height=3.7,fig.width=5.2}
 #compute estimated proportions of favoring Liberal with sd grouped by satisfied and voted
 dt2 <- data %>% group_by(satisfied , voted) %>% summarise(m = mean(choice == "L",
                                                                    na.rm=TRUE),
@@ -154,7 +153,9 @@ p = ggplot(dt2, aes(x=voted, y=m, colour=satisfied ,group=satisfied )) +
   geom_point(size = 2) +
   theme_classic() + xlab("Whether Voted for Liberal before(N=No,Y=Yes)") + ylab("Estimated proportion of favoring Liberal (95%CI)") + 
   theme(legend.position=c(0.95,0.75)) + 
-  scale_color_manual(values =c("#00b0f6","#f8766d")) + ylim(0,1)
+  scale_color_manual(values =c("#00b0f6","#f8766d")) + ylim(0,1)+ 
+  ggtitle("Proportions of favoring Liberal for young voters",
+subtitle = "grouped by satisfication of work for COVID-19 and whether voted Liberal before")
 p
 ```
 
@@ -168,8 +169,7 @@ knitr::kable(dt2,caption = "Estimated proportion of favoring Liberal (95%CI) gro
 ## Discussion
 
 
-The founding of the above shows that for the young voters who are aged between 18 to 25, the male young voters who voted for Liberal appear to have a lower proportion of favoring Liberal in ON for 2020 election compared with other groups. And there is a big difference between the two groups of whether satisfied of the work for COVID-19 in proprotions of favoring Liberal if the young voters voted for Liberal before. However, there are some potential weaknesses in this study. First, as this survey applied the sampling method SRSWOR, there is a problem in lack of listing frame which means the SRSWOR requires a list of population to be available, but for this case, the ideal deal target population is not available, for examples, there are might be lots of cases are confirmed by the COVID-19 and they can not be investigated in the survey. Second, there is still problem of non-response bias as in the sampling method SRSWOR of this study, mail is used to implement the survey, there might be samples do not want to complete the survey. Third, the total sample size is 1000 in the survey, however, there might be samples collected in the survey that are not interested for the study, for example, if samples do not answer the question of which party to vote or whether they voted Liberal party before, these samples can not be used, thus, the actual sample size for the study is less than 1000 which might not be enough if we want the results to be reliable based on a relative large sample size. Last, the order of questions might be important in this survey, for example, the relative order of question of whether satisfied by work in dealing with COVID-19 and which party to vote might be important as for some samle units, they might think the question of whether satisfied by work in dealing with COVID-19 might remind them that the Liberal party did not work well and thus they might not vote for the Liberal party. So in the future study, these issues could be futher discussed to improve the results obtained.
-
+The founding of the above shows that for the young voters aged between 18 to 25, the young male voters who voted for Liberal appear to have a lower proportion of favouring Liberal in ON for the 2020 election than other groups. And there is a big difference between the two groups of whether satisfied with the work for COVID-19 in proportions of favouring Liberal if the young voters voted for Liberal before. However, there are some potential weaknesses in this study. First, as this survey applied the sampling method SRSWOR, there is a problem in the lack of listing frame, which means the SRSWOR requires a population list to be available. Still, for this case, the ideal deal target population is not available. For example, there might be many cases confirmed by the COVID-19 and can not be investigated in the survey. Second, there is still non-response bias as in the sampling method SRSWOR of this study, and the mail is used to implement the survey; there might be samples that do not want to complete the survey. Third, the total sample size is 1000 in the survey. However, samples collected in the survey might not be interested in the study; for example, if samples do not answer which party to vote or voted for the Liberal party before, we may not consider them. Thus, the study's actual sample size is less than 1000, which might not be enough if we want the results to be reliable based on a relatively large sample size. Last, the order of questions might be necessary for this survey. For example, the relative ranking of the question of whether satisfied by work in dealing with COVID-19 and which party to vote might be essential as for some sample units, and they might think the question of whether satisfied by work in coping with COVID-19 might remind them that the Liberal party did not work well. Thus they might not vote for the Liberal party. So in the future study, these issues could be further discussed to improve the results obtained.
 
 
 ## References
